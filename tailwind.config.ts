@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/vector.svg')",
+      
+      },
       fontSize: {
         xs: ['12px', '16px'],
         sm: ['14px', '20px'],

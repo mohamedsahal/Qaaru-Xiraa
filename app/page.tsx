@@ -10,14 +10,13 @@ import Navbar from "@/components/Navbar/Navbar";
 export default function Home() {
   return (
     <main className="h-[calc(100%-70px) mx-auto]">   
-<div className="bg-cover bg-center h-screen w-screen bg-no-repeat "
-    style={{
-      backgroundImage: `url('/vector.svg')`,
-    }}>
+<div className="hero"
+  >
 <Navbar/>
       
       <Hero/>
 </div>
+
 
 <Features/>
 <AyahaOfTheDay/>

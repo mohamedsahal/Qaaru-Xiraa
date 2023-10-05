@@ -11,7 +11,7 @@ const Hero = () => {
         <p className="text-white">
           Discover the Beauty of Faith, Explore the <br /> Wisdom of the Quran
         </p>
-        <div className='flex items-center mt-10'>
+        <div className=' items-center mt-10 mx-auto sm:flex hidden'>
         <Button
 					text="Explore"
 					customStyles="bg-Secondary !text-white   shadow-sm"
@@ -19,18 +19,19 @@ const Hero = () => {
 				/>
         <Button
 					text="Learn More"
-					customStyles="!text-white mx-5  shadow-sm"
+					customStyles="!text-white mx-5  "
 					
 				/>
         </div>
       </div>
 
-      <div className="mt-4 sm:mt-0">
+      <div className="mt-10 ">
         <img
           alt=""
           src="/Hero.svg"
           width={700}
           height={700}
+          className='sm:flex hidden'
         />
       </div>
     </div>

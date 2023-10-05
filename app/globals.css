@@ -24,3 +24,7 @@ body {
   overflow-x: hidden;
 }
 
+.hero{
+  @apply bg-hero-pattern  bg-cover  bg-center sm:h-screen h-[100%] w-screen bg-no-repeat 
+}
+

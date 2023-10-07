@@ -1,8 +1,10 @@
 ![Landing Page](/public/Quran.png)
 
+**DEMO LINK:** [https://qaaru-xiraa.vercel.app](https://qaaru-xiraa.vercel.app)
+
 # Qaaru Xiraa
 
-Qaaru Xiraa is an open-source Islamic website that offers a range of features to help users connect with the Quran, learn, and practice their faith. It is built using Next.js for the frontend, Tailwind CSS for styling, and FastAPI for the backend. This project aims to provide a platform for accessing the Quran, Quran translations, quizzes, adkar, duas, and online learning resources.
+Qaaru Xiraa is an  Islamic website that offers a range of features to help users connect with the Quran, learn, and practice their faith. It is built using Next.js for the frontend and Tailwind CSS for styling. This project aims to provide a platform for accessing the Quran, Quran translations, quizzes, adkar, duas, and online learning resources.
 
 ## Features
 
@@ -17,7 +19,7 @@ Qaaru Xiraa is an open-source Islamic website that offers a range of features to
 ## Tech Stack
 
 - **Frontend**: Next.js, TypeScript and Tailwind CSS.
-- **Backend**: FastAPI for building robust APIs.
+- **Backend**: Express for building robust APIs.
 - **APIs**: Utilizes Quran API and other relevant APIs.
 - **Database**: MySQL.
 
@@ -41,7 +43,6 @@ Follow these steps to get the project up and running on your local machine:
 
    ```bash
    npm install # For Next.js
-   pip install -r requirements.txt # For FastAPI
 
 
 4. **Run the Application**: 
@@ -52,8 +53,5 @@ Follow these steps to get the project up and running on your local machine:
    npm run dev
    ```
    
-   **Start the backend (FastAPI)**
-
-   ```bash
-   uvicorn main:app --reload
+   
 

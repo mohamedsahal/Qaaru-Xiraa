@@ -21,7 +21,7 @@ Qaaru Xiraa is an  Islamic website that offers a range of features to help users
 - **Frontend**: Next.js, TypeScript and Tailwind CSS.
 - **Backend**: Express for building robust APIs.
 - **APIs**: Utilizes Quran API and other relevant APIs.
-- **Database**: MySQL.
+- **Database**: MongoDB.
 
 
 ## Getting Started

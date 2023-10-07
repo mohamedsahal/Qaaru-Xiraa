@@ -5,7 +5,7 @@ import { BsArrowRightShort, BsCheckAll } from "react-icons/bs";
 
 const AyahaOfTheDay = () => {
   return (
-    <div className="container w-full flex flex-col justify-items-center mx-auto  mt-20 p-4 bg-primary rounded-md">
+    <div className="container w-full flex flex-col justify-items-center mx-auto   mt-20 p-4 bg-primary rounded-md">
 							<div>
 								<h3 className="text-sm text-center text-white text-opacity-50 font-semibold uppercase">
 									Ayah of the day

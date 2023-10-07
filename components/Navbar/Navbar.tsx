@@ -7,6 +7,7 @@ import { FaQuran } from "react-icons/fa";
 import Button from "../UI/Button";
 import { useMediaQuery } from "react-responsive";
 import Link from "next/link";
+import { link } from "fs";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
 					ref={linksRef}
 					className={`flex  items-center gap-4 ${
 						isMenuOpen
-							? `absolute w-full h-[${navLinksHeight}] left-0 top-[70px] flex-col  items-center [&>a]:w-full bg-white text-primary   rounded-md z-0`
+							? `absolute w-full h-[${navLinksHeight}] p-10 mx-auto left-0 top-[70px] flex-col   items-center [&>a]:w-full bg-white text-primary  rounded-md z-0`
 							: "hidden"
 					} md:flex transition`}
 				>
@@ -60,11 +61,12 @@ const Navbar = () => {
 						linkName="Contact Us"
 						link="ContactUs"
 					/>
+					<Link href="/login">
 					<Button
 					text="Sign in"
 					customStyles="bg-Secondary !text-white   shadow-sm"
-					
 				/>
+				</Link>
 				</ul>
 				
 			</nav>

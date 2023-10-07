@@ -1,10 +1,13 @@
 import Link from "next/link";
+import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer";
 
 export default function Login() {
   return (
+    <div className="flex flex-col h-screen">
+    <div className="bg-primary"> <Navbar/></div>
     
-    <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center mt-auto mb-auto  overflow-hidden">
       <div className="w-full p-6 bg-white rounded-md shadow-md lg:max-w-xl">
         <h1 className="text-3xl  font-bold text-center text-gray-700">Login</h1>
         <form className="mt-6">
@@ -57,6 +60,7 @@ export default function Login() {
       </div>
   
     </div>
-        
+        <Footer/>
+        </div>
   );
 }

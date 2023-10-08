@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('/vector.svg')",
+        'hero-image': "url('/hero.svg')",
       
       },
       fontSize: {

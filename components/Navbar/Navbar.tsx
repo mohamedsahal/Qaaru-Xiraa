@@ -58,8 +58,8 @@ const Navbar = () => {
 						
 					/>
 					<NavLink
-						linkName="Contact Us"
-						link="ContactUs"
+						linkName="Contact"
+						link="contact"
 					/>
 					<Link href="/login">
 					<Button
